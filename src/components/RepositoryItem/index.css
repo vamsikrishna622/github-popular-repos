@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.popular-repo-item {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8ff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-repo-item {
+    width: 300px;
+    max-width: 30%;
+  }
+}
+
+.repo-avatar {
+  width: 80px;
+  height: 80px;
+}
+.repo-name {
+  color: #e73959;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+.icons-container {
+  padding: 0;
+  margin: 0;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.icon-name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #1e293b;
+}

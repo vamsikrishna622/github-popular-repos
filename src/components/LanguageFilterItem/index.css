@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.button {
+  cursor: pointer;
+  padding: 4px 20px 4px 20px;
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.active-btn-tab {
+  border: 2px solid #0284c7;
+  border-radius: 18px;
+}
